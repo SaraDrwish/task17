@@ -180,7 +180,7 @@ header .container .CONTENT_CONTAINER{
   
 }
 header .container  .CONTENT_CONTAINER .text_header {
-     width: 58%;
+     width: 52%;
      position: relative;
      left: 11%;
      /* overflow: hidden; */
@@ -188,7 +188,8 @@ header .container  .CONTENT_CONTAINER .text_header {
      /*animation-iteration-count: infinite;
      */
      animation-name: watchanme;
-     animation-duration: .6s;
+     animation-duration: .5s;
+     animation-direction: alternate;
       /* padding-right: 5%;    */
  
 }
@@ -552,8 +553,9 @@ nav .container .navtypes{
     width: 95%;
     padding: 8%;
     -webkit-filter: drop-shadow(0px 2px 2px rgba(128, 128, 128, 0.226) );
-     /* visibility: hidden;
-     opacity: 0%; */
+
+     visibility: hidden;
+     opacity: 0%;
 }
 nav .container .navtypes  ul li .dropdown{
     /*visibility:hidden;
@@ -624,6 +626,85 @@ nav .container input #menu:checked~nav .container .navtypes{
 }
 
 /* ===================end nav in 1191 */
+
+header .container .CONTENT_CONTAINER{
+    width: 90%;
+}
+header .container .CONTENT_CONTAINER .text_header{
+    width: 100%;
+}
+header .container .CONTENT_CONTAINER .text_header h1 {
+    font-size: 32px;
+    margin-bottom: 8%;
+    width: 100%;
+    margin-top: 25%;    
+    }
+
+    header .container .CONTENT_CONTAINER .text_header p {
+        margin-bottom: 8%;
+        width: 100%;
+        font-size: 16px;
+        line-height: 33px;
+    }
+    header .container  .CONTENT_CONTAINER .header_img {
+       display: none;  
+   }
+   header .container .CONTENT_CONTAINER .text_header .btn {
+    margin-bottom: 35%;
+}
+
+/* ===================end header in 1191 */
+
+
+
+
+
+/* ===================start  sec1 in 1191 =================== */
+
+
+section .containerr .img-big-container{
+    width: 100%;
+    display: unset;
+   }
+
+section .containerr .img_container{
+
+   width:100% ;
+ 
+}
+
+section .section1_text_h{
+    font-size: 25px;
+    padding-bottom: 16%;
+    padding-top: 9%;
+    }
+
+
+/* ===================end sec1 in 1191 */
+
+
+
+/* ===================start  sec2 in 1191 =================== */
+
+
+
+section .containergrid{
+    /* background-color: tomato; */
+    display: unset;
+
+}
+
+section .containergrid .img_grid{
+margin-top: 6%;
+}
+
+/* ===================end sec2 in 1191 */
+
+
+
+
+
+
  }
 
 @media (max-width:575px) {
